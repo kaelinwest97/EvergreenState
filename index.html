@@ -4,20 +4,110 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
+    <title> Welcome to the Evergreen State website</title>
     <style>
-        .center-text {
-          text-align: center;
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
         }
-    <title>Welcome to the Washington State homepage</title>
-      </style>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script type="text/javascript" src="check_script.js"></script>
-</head>
 
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        header h1 {
+            margin: 10px 0;
+        }
+
+        main {
+            flex: 1;
+            padding: 20px;
+        }
+
+        aside {
+            flex: 1;
+            padding: 10px;
+            background-color: #f4f4f4;
+            border-left: 2px solid #ddd;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            margin-top: auto;
+        }
+
+        footer ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        footer ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        .main-image {
+            position: relative;
+        }
+
+        .top-left-blurb {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: rgba(0, 0, 0, 0.6);
+            color: white;
+            padding: 10px;
+        }
+
+        .img-text-centered {
+            text-align: center;
+            color: white;
+            font-size: 24px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .aside-img {
+            position: relative;
+            width: 100%;
+        }
+    </style>
+</head>
 <body>
-    <header id="top-header">
+
+    <header>
         <img src="images/state_seal.png" alt="Washington State Seal"/>
-        <p>The State of Washington</p>
+        <h1>Welcome to the Evergreen State homepage</h1>
     </header>
 
     <nav id="myTopnav">
@@ -26,22 +116,22 @@
         </a>
         <p class="domain">WA.us</p>
         <a href="index.html" class="item">Home</a>
-                    <li><a href="olympia.html"><img src="icons/olympia.png" alt="Olympia">Olympia</a></li>
-                    <li><a href="seattle.html"><img src="icons/seattle.png" alt="Seattle">Seattle</a></li>
-                    <li><a href="spokane.html"><img src="icons/spokane.png" alt="Spokane">Spokane</a></li>
-                    <li><a href="about.html"><img src="icons/about.png" alt="About">About</a></li>
+        <a href="olympia.html"><img src="icons/olympia.png" alt="Olympia">Olympia</a>
+        <a href="seattle.html"><img src="icons/seattle.png" alt="Seattle">Seattle</a>
+        <a href="spokane.html"><img src="icons/spokane.png" alt="Spokane">Spokane</a>
+        <a href="about.html"><img src="icons/about.png" alt="About">About</a>
     </nav>
 
     <main>
-        <section>
-            <div class="main-image">
-                <img src="images/washington_state_skyline.jpg" class="frontimg" alt="Washington State Skyline">
-                <aside class="top-left-blurb">
-                    <h1>Explore Washington State</h1>
-                    <p>From the majestic Mount Rainier to the vibrant city of Seattle, Washington State offers stunning landscapes and rich culture. Visit today!</p>
-                </aside>
-            </div>
-        </section>
+    <section>
+        <div class="main-image">
+            <img src="images/washington_state_skyline.jpg" class="frontimg" alt="Washington State Skyline">
+            <aside class="top-left-blurb">
+                <h1>Explore Washington State</h1>
+                <p>From the majestic Mount Rainier to the vibrant city of Seattle, Washington State offers stunning landscapes and rich culture. Visit today!</p>
+            </aside>
+        </div>
+    </section>
 
         <section id="state-info">
             <div id="state-description">
@@ -54,19 +144,9 @@
 
         <img src="images/washington_exploration.jpg" style="width:100%" alt="Washington State Exploration">
 
-        <section id="popular-cities">
-            <h3>Popular Cities</h3>
-            <div class="city-button">
-                <ul>
-                    <li><a href="olympia.html"><img src="images/olympia.jpg" alt="Olympia">Olympia</a></li>
-                    <li><a href="seattle.html"><img src="images/seattle.jpg" alt="Seattle">Seattle</a></li>
-                    <li><a href="spokane.html"><img src="images/spokane.jpg" alt="Spokane">Spokane</a></li>
-                </ul> 
-            </div>
-        </section>
     </main>
 
-    <div class="footer-img">
+    <div class="aside-img">
         <img src="images/footer_image.jpg" style="width:100%;" alt="Footer Image">
         <div class="img-text-centered">Visit Washington State Today</div>
     </div>
