@@ -48,11 +48,10 @@ section {
 
 
 aside {
-    float: topright;
     padding: 20px;
     box-sizing: border-box;
     text-align: center;
-    height: 300px;
+    height: 400px;
     width: 100px
     overflow-y: auto;
 }
@@ -81,7 +80,7 @@ footer nav ul li a {
 }
 
 #table {
-    position:relative;
+    position: relative;
     top: 20px;
     margin: 0px auto;
 }
