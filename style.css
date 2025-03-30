@@ -48,12 +48,12 @@ section {
 
 
 aside {
-    width: 30%;
-    float: left;
+    width: 20%;
+    float: right;
     padding: 20px;
     box-sizing: border-box;
     text-align: center;
-    height: 600px;
+    height: 900px;
     overflow-y: auto;
 }
 
