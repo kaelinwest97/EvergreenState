@@ -13,7 +13,7 @@ header {
     background: #004d40;
     color: white;
     text-align: center;
-    padding: 0;
+    padding: 10px;
 }
 
 header img {
@@ -36,6 +36,8 @@ nav a {
     padding: 10px 15px;
     display: flex;
     align-items: center;
+    transition: background 0.3s ease-in-out;
+    border-radius: 5px;
 }
 
 nav a img {
@@ -44,9 +46,8 @@ nav a img {
     margin-right: 8px;
 }
 
-nav a: hover {
+nav a:hover {
     background: #004d40;
-    border-radius: 5px;
 }
 
 .main-content {
@@ -115,3 +116,4 @@ footer ul li a {
     color: white;
     text-decoration: none;
 }
+
