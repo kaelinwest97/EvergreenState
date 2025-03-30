@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Welcome to Olympia</title>
+    <style>
+        body { font-family: 'Arial', sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
+        header, footer { background: #004d40; color: white; text-align: center; padding: 20px; }
+        nav { background: #00796b; padding: 10px; display: flex; justify-content: space-around; }
+        nav a { color: white; text-decoration: none; padding: 10px 15px; }
+        nav a:hover { background: #004d40; border-radius: 5px; }
+        .content-wrapper { display: flex; margin: 20px; }
+        .main-content { flex: 2; padding-right: 20px; }
+        .top-right-blurb { background: rgba(0, 0, 0, 0.6); color: white; padding: 15px; border-radius: 10px; width: 250px; margin-top: 20px; }
+        #state-info { text-align: center; padding: 40px; }
+        footer ul { list-style: none; padding: 0; }
+        footer ul li { display: inline; margin: 0 10px; }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="icons/washington-state-seal.png" alt="Washington State Seal">
+        <h1>Olympia</h1>
+    </header>
+
+    <nav>
+        <a href="javascript:void(0);" class="icon"><i class="fa fa-bars"></i></a>
+        <a href="index.html">Home</a>
+        <a href="olympia.html"><img src="icons/olympia-icon.png">Olympia</a>
+        <a href="seattle.html"><img src="icons/seattle-icon.png">Seattle</a>
+        <a href="spokane.html"><img src="icons/spokane-icon.png">Spokane</a>
+        <a href="about.html"><img src="icons/about-icon.jpg">About</a>
+    </nav>
+    
+    <div class="content-wrapper">
+        <div class="main-content">
+            <section id="state-info">
+                <h1>The City of Olympia</h1>
+                <img src="images/olympia-capitol.jpg" alt="Olympia Capitol">
+                <p>Population: 55,605</p>
+                <p>Year the city was founded: 1859</p>
+                <p>Region within the State: North-West</p>
+                <p>Average Income: $44,315</p>
+            </section>
+        </div>
+        
+        <aside class="top-right-blurb">
+            <h1>Famous Attractions in Olympia</h1>
+            <p>Come visit the Capitol Building, or bring your kids to the Hands On Children's Museum where we celebrate early learning development for the future of our country!</p>
+            <img src="images/tourism-olympia.jpg" style="width:100%">
+        </aside>
+    </div>
+
+    <footer>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="https://www.seattle.gov/">Official City Website</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
