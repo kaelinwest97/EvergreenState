@@ -5,8 +5,8 @@ body {
 
 header {
     clear: both;
-    background-color: white;
-    color: black;
+    background-color: blue;
+    color: white;
     padding: 1px;
     text-align: center;
 } 
@@ -57,12 +57,6 @@ aside {
     overflow-y: auto;
 }
 
-aside {
- padding:5px;
- height:200px;
- width:100px;
- float:right;
-}
 
 footer {
     clear: both;
