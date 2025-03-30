@@ -5,157 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <title>Welcome to the Evergreen State Website</title>
+    <title>Evergreen State</title>
     <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background: #004d40;
-            color: white;
-            text-align: center;
-            padding: 20px 0;
-        }
-        nav {
-            background: #00796b;
-            overflow: hidden;
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
-            padding: 10px;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            padding: 10px 15px;
-            font-weight: bold;
-        }
-        nav a:hover {
-            background: #004d40;
-            border-radius: 5px;
-        }
-        .content-wrapper {
-            display: flex;
-            margin: 20px;
-            align-items: flex-start;
-        }
-        .main-content {
-            flex: 2;
-            padding-right: 20px;
-        }
-        .main-image {
-            text-align: center;
-            width: 100%;
-        }
-        .top-right-blurb {
-            background: rgba(0, 0, 0, 0.6);
-            color: white;
-            padding: 15px;
-            border-radius: 10px;
-            width: 250px;
-            text-align: left;
-            position: relative;
-            margin-top: 20px;
-            align-self: flex-start;
-        }
-        #state-info {
-            background: white;
-            padding: 40px;
-            text-align: center;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        footer {
-            background: #004d40;
-            color: white;
-            text-align: center;
-            padding: 20px;
-            margin-top: 20px;
-        }
-        footer ul {
-            list-style: none;
-            padding: 0;
-        }
-        footer ul li {
-            display: inline;
-            margin: 0 10px;
-        }
-        footer ul li a {
-            color: white;
-            text-decoration: none;
-        }
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; }
+        header, footer { background: #004d40; color: white; text-align: center; padding: 20px; }
+        nav { background: #00796b; display: flex; justify-content: space-around; padding: 10px; }
+        nav a { color: white; text-decoration: none; padding: 10px; font-weight: bold; }
+        nav a:hover { background: #004d40; border-radius: 5px; }
+        .content-wrapper { display: flex; margin: 20px; }
+        .main-content { flex: 2; padding-right: 20px; }
+        .top-right-blurb { background: rgba(0, 0, 0, 0.6); color: white; padding: 15px; border-radius: 10px; width: 250px; margin-top: 20px; }
+        #state-info { background: white; padding: 40px; text-align: center; }
+        footer ul { list-style: none; padding: 0; display: flex; justify-content: center; }
+        footer ul li { margin: 0 10px; }
+        footer a { color: white; text-decoration: none; }
     </style>
 </head>
 <body>
     <header>
         <img src="images/stateseal.png" alt="Washington State Seal" />
-        <h1 class="center">Welcome to the Washington State Homepage</h1>
+        <h1>Welcome to Washington</h1>
     </header>
-
-    <nav id="myTopnav">
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-        </a>
-        <p class="domain">WA.us</p>
-        <a href="index.html" class="item">Home</a>
-        <a href="olympia.html">
-            <img src="icons/olympia.png">Olympia
-        </a>
-        <a href="seattle.html">
-            <img src="icons/seattle.png">Seattle
-        </a>
-        <a href="spokane.html">
-            <img src="icons/spokane.png">Spokane
-        </a>
-        <a href="about.html">
-            <img src="icons/about.png">About
-        </a>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="olympia.html">Olympia</a>
+        <a href="seattle.html">Seattle</a>
+        <a href="spokane.html">Spokane</a>
+        <a href="about.html">About</a>
     </nav>
-        <div class="content-wrapper">
+    <div class="content-wrapper">
         <div class="main-content">
-            <section class="main-image">
-                <img src="images/washingtonstateskyline.jpg" class="frontimg" alt="Washington State Skyline" />
-            </section>
             <section id="state-info">
-                <div id="state-description">
-                    <div id="state-img">
-                        <img src="images/statelandscape.jpg" alt="Washington State Landscape" />
-                    </div>
-                    <h1>The Evergreen State</h1>
-                    <p>
-                        Washington, known as the "Evergreen State," is famous for its beautiful forests, incredible ski slopes, and cutting-edge tech scene! It's a land where nature meets technology, blending the beauty of the outdoors with the innovation of urban centers like Seattle.
-                    </p>
-                    <p>
-                        The state is home to world-famous landmarks like the Space Needle, Olympic National Park, and the Spokane Riverfront. Whether you're hiking through lush forests, exploring vibrant cities, or hitting the slopes in Mount Spokane, Washington has something for everyone!
-                    </p>
-                </div>
+                <img src="images/statelandscape.jpg" alt="Washington State Landscape" />
+                <h1>The Evergreen State</h1>
+                <p>Washington is famous for its forests, ski slopes, and tech scene, blending nature with urban innovation.</p>
+                <p>Visit the Space Needle, Olympic National Park, and Spokane Riverfront, or explore the great outdoors.</p>
             </section>
         </div>
-        
         <aside class="top-right-blurb">
-            <h1>Explore Washington State</h1>
-            <p>
-                From the majestic Mount Rainier to the vibrant city of Seattle, Washington State offers stunning landscapes and rich culture. Visit today!
-            </p>
+            <h1>Explore Washington</h1>
+            <p>From Mount Rainier to Seattle, Washington offers breathtaking landscapes and vibrant culture.</p>
             <img src="images/washingtonexploration.jpg" style="width:100%" alt="Washington State Exploration" />
         </aside>
     </div>
-
-    <div class="footer-img">
-        <img src="images/footerimage.jpg" style="width:100%;" alt="Footer Image" />
-    </div>
-
     <footer>
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
-            <li><a href="https://wa.gov/">Official State Website</a></li>
+            <li><a href="https://wa.gov/">Official Website</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </footer>
 </body>
 </html>
+
