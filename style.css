@@ -48,7 +48,7 @@ section {
 
 
 aside {
-    float: right;
+    float: topright;
     padding: 20px;
     box-sizing: border-box;
     text-align: center;
