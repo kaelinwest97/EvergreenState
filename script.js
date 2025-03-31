@@ -1,10 +1,10 @@
 document.addEventListener('DOMContentLoaded', function () {
     var email = document.getElementById('email');
-    var confirmEmail = document.getElementById('confirmEmail');
+    var confirmEmail = document.getElementById('confirm-email');
 
     function checkEmailMatch() {
         
-        if (email.value !== confirmEmail.value) {
+        if (email.value !== confirm-email.value) {
             confirmEmail.setCustomValidity('Email addresses must match.');
 
             
@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
             confirmEmail.style.borderColor = 'green';
 
             
-            alert('Email addresses match. Verification successful.');
+            alert('Email addresses match. Your email has been successfully verified.');
 
 
         }
