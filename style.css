@@ -13,7 +13,7 @@ header {
     background: #004d40;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
 }
 
 header img {
@@ -33,10 +33,9 @@ nav {
 nav a {
     color: white;
     text-decoration: none;
-    padding: 10px 15px;
+    padding: 10px, 15px;
     display: flex;
     align-items: center;
-    transition: background 0.3s ease-in-out;
     border-radius: 5px;
 }
 
@@ -47,21 +46,21 @@ nav a img {
 }
 
 nav a:hover {
-    background: #004d40;
+    background: #004d40; 
+    border-radius: 5px; 
 }
 
 .main-content {
-    flex: 1;
+    flex: 2;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    padding-right: 20px;
 }
 
 .content-wrapper {
     display: flex;
-    flex: 1;
     margin: 20px;
 }
 
@@ -88,8 +87,17 @@ nav a:hover {
 }
 
 .top-right-blurb img {
-    width: 100%;
-    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 250px;
+    margin-top: 20px;
+}
+
+#state-info {
+    text-align: center;
+    padding: 40px; 
 }
 
 footer {
@@ -102,12 +110,11 @@ footer {
 }
 
 footer ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+    list-style: 
+    none; padding: 0;
 }
 
-footer ul li {
+footer ul li { 
     display: inline;
     margin: 0 10px;
 }
