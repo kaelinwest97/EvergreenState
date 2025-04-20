@@ -92,6 +92,8 @@ aside img {
 }
 
 .top-right-blurb img {
+    display: block;
+    margin: 0 auto;
     background: rgba(0, 0, 0, 0.6);
     color: white;
     padding: 15px;
