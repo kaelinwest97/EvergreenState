@@ -59,6 +59,11 @@ nav a:hover {
     padding-right: 20px;
 }
 
+aside img {
+  display: block;
+  margin: 0 auto;
+}
+
 .content-wrapper {
     display: flex;
     margin: 20px;
