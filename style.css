@@ -59,10 +59,6 @@ nav a:hover {
     padding-right: 20px;
 }
 
-aside img {
-  display: block;
-  margin: 0 auto;
-}
 
 .content-wrapper {
     display: flex;
@@ -92,16 +88,11 @@ aside img {
 }
 
 .top-right-blurb img {
-    display: block;
-    margin: 0 auto;
-    background: rgba(0, 0, 0, 0.6);
-    color: white;
-    padding: 15px;
+    max-width: 100%;
+    height: auto;
     border-radius: 10px;
-    width: 200px;
-    margin-top: 20px;
+    margin-top: 15px;
 }
-
 #state-info {
     text-align: center;
     padding: 40px; 
