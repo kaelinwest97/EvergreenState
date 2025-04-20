@@ -22,6 +22,22 @@ header img {
     margin: 0 auto 10px;
 }
 
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+thead {
+    background-color: #f4f4f4;
+}
+
 nav {
     background: #00796b;
     padding: 10px;
