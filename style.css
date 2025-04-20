@@ -90,11 +90,13 @@ nav a:hover {
     border-radius: 10px;
     width: 250px;
     margin-top: 20px;
-    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
 }
 
 .top-right-blurb img {
-    max-width: 100%;
+    width: 100%; 
     height: auto;
     border-radius: 10px;
     margin-top: 15px;
